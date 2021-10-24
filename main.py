@@ -55,7 +55,7 @@ for i in range(0,len(Name)):
 
 
     cv2.imwrite('Certificate.png',im)
-    fromaddr="accou.dem21@gmail.com"
+    fromaddr=""#put your mail id
     toaddr = Mail[i:i+1]
      # instance of MIMEMultipart
     msg = MIMEMultipart()
@@ -87,7 +87,7 @@ for i in range(0,len(Name)):
     # start TLS for security
     s.starttls()
     # Authentication
-    s.login(fromaddr,"indian@1234")
+    s.login(fromaddr,"")#put your password
     # Converts the Multipart msg into a string
     text = msg.as_string()
     # sending the mail
