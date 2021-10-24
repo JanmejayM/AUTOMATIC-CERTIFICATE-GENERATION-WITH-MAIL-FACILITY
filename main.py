@@ -35,7 +35,8 @@ Project=Project.to_list()
 Instructor=Instructor.to_list()
 dtw=d.strftime("%d-%b-%y")
 
-image = cv2.imread('/Users/janmejaymohapatra/PycharmProjects/p1/Certificatetem.png')
+image = cv2.imread('')#put location of the certificate template
+
 
 #use only for getting Co-ordinates....
    #pt.imshow(image)
@@ -45,7 +46,7 @@ image = cv2.imread('/Users/janmejaymohapatra/PycharmProjects/p1/Certificatetem.p
 
 
 for i in range(0,len(Name)):
-    image = cv2.imread('/Users/janmejaymohapatra/PycharmProjects/p1/Certificatetem.png')
+    image = cv2.imread('')#put location of the certificate template
 
     im = cv2.putText(image, Name[i], (722, 802), cv2.FONT_HERSHEY_SIMPLEX, 3, (1, 0, 0), 5, cv2.LINE_AA)
     im = cv2.putText(im, dtw, (1536, 1312), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (1, 0, 0), 3, cv2.LINE_AA)
