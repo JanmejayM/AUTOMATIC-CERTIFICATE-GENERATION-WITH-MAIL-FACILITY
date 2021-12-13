@@ -1,4 +1,8 @@
-# AUTOMATIC-CERTIFICATE-GENERATION-WITH-MAIL-FACILITY
+## Project developed by:          
+### Janmejay Mohapatra 
+#### B.Tech in Electrical & Electronics Engineering
+
+## AUTOMATIC-CERTIFICATE-GENERATION-WITH-MAIL-FACILITY
 
 Hey This Project Uses Python Language
 All the readers are suggested to download all the libraries and import them to ensure proper 
